@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <>
-      <header className="mb-20 flex items-center justify-center">
+      <header className="mb-14 flex items-center justify-center">
         <div className="flex items-center justify-center mr-5">
           <DarkModeToggle />
         </div>
@@ -60,13 +60,13 @@ export default function App() {
         </div>
       </main>
       <footer className="font-gilroy font-bold flex items-center justify-center ">
-        <a href="https://econav.app" target="_blank" rel="noopener noreferrer" className='shadow-lg mr-3 rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
+        <a href="https://github.com/baranozdemir1/" target="_blank" rel="noopener noreferrer" className='shadow-lg mr-3 rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
           <AiOutlineGithub size={25} />
         </a>
-        <a href="https://econav.app" target="_blank" rel="noopener noreferrer" className='shadow-lg mr-3 rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
+        <a href="https://instagram.com/econav.app" target="_blank" rel="noopener noreferrer" className='shadow-lg mr-3 rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
           <AiFillInstagram size={25} />
         </a>
-        <a href="https://econav.app" target="_blank" rel="noopener noreferrer" className='shadow-lg rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
+        <a href="https://www.linkedin.com/in/baranozdemir/" target="_blank" rel="noopener noreferrer" className='shadow-lg rounded-full p-2 bg-white dark:bg-black dark:text-white dark:hover:bg-econavOrange border transition-all hover:bg-econavOrange hover:text-white hover:transition-all'>
           <AiFillLinkedin size={25} />
         </a>
       </footer>

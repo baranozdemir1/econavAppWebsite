@@ -6,7 +6,7 @@ const DarkModeToggle = () => {
     const { theme, setTheme } = React.useContext(ThemeContext);
 
     return (
-        <div className="transition duration-500 ease-in-out rounded-full p-2">
+        <div className="transition duration-500 ease-in-out rounded-full">
             {
                 theme === 'dark' ? (
                     <div
