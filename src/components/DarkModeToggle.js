@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaSun, FaMoon} from "react-icons/fa";
-import { ThemeContext } from '../ThemeContext';
+import { ThemeContext } from '../lib/ThemeContext';
 
 const DarkModeToggle = () => {
     const { theme, setTheme } = React.useContext(ThemeContext);

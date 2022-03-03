@@ -4,7 +4,7 @@ const Background = ( { children } ) =>
 {
     return (
         <div className="bg-white dark:bg-black transition-all duration-500 ease-in-out">
-            <div className='container mx-auto flex items-center justify-center flex-col py-10'>
+            <div className='container mx-auto flex items-center justify-center flex-col py-10 h-screen overflow-scroll'>
                 {children}
             </div>
         </div>

@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import { ThemeProvider } from './ThemeContext';
-import Background from './Background';
+import { ThemeProvider } from './lib/ThemeContext';
+import Background from './components/Background';
 
-import './i18n';
+import './lib/i18n';
 
 ReactDOM.render(
   <React.StrictMode>
